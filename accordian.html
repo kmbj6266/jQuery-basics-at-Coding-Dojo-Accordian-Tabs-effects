@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Accordion and Tabs</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+  <style>
+
+      #tabs{
+        width: 800px;
+        margin: 0 auto;
+      }
+
+      #accordion{
+        width: 805px;
+          margin: 0 auto;
+      }
+      #spacer{
+        height: 50px;
+      }
+      #wholecontainer{
+        width: 1000px;
+        min-height: 900px;
+        background-color: pink;
+        margin: 0 auto;
+        padding-bottom:20px;
+      }
+  </style>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+</head>
+
+<body>
+
+<div id="wholecontainer">
+<img src="cupcakes.jpg" width="1000">
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Ice Cream</a></li>
+      <li><a href="#tabs-2">Cakes</a></li>
+      <li><a href="#tabs-3">Other Desserts</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. Apple pie sweet roll candy canes pie fruitcake lemon drops macaroon topping I love. Brownie cupcake I love lemon drops. Caramels applicake gummi bears. Donut I love jelly beans cake jelly-o dessert oat cake chocolate cake. Marshmallow croissant carrot cake. Gummies cake donut bear claw sweet. Apple pie brownie dessert fruitcake oat cake carrot cake.</p>
+    </div>
+    <div id="tabs-2">
+      <p>Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. Apple pie sweet roll candy canes pie fruitcake lemon drops macaroon topping I love. Brownie cupcake I love lemon drops. Caramels applicake gummi bears. Donut I love jelly beans cake jelly-o dessert oat cake chocolate cake. Marshmallow croissant carrot cake. Gummies cake donut bear claw sweet. Apple pie brownie dessert fruitcake oat cake carrot cake. Powder donut donut gummies sweet soufflé brownie chupa chups. Carrot cake candy sugar plum.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. Apple pie sweet roll candy canes pie fruitcake lemon drops macaroon topping I love. Brownie cupcake I love lemon drops. Caramels applicake gummi bears. Donut I love jelly beans cake jelly-o dessert oat cake chocolate cake. Marshmallow croissant carrot cake.</p>
+      <p>Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. Apple pie sweet roll candy canes pie fruitcake lemon drops macaroon topping I love. Brownie cupcake I love lemon drops. Caramels applicake gummi bears. Donut I love jelly beans cake jelly-o dessert oat cake chocolate cake. Marshmallow croissant carrot cake. Gummies cake donut bear claw sweet. Apple pie brownie dessert fruitcake oat cake carrot cake.</p>
+    </div>
+  </div>
+   
+  <!-- start accordion here -->
+  <div id="spacer">
+  </div>
+  <div id="accordion">
+    <h3>Cakes and Cupcakes</h3>
+    <div>
+      <p>
+     Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. 
+      </p>
+    </div>
+    <h3>All Desserts</h3>
+    <div>
+      <p>
+      Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. 
+      </p>
+    </div>
+    <h3>Candy</h3>
+    <div>
+      <p>
+    Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. 
+      </p>
+      <ul>
+        <li>Cupcakes</li>
+        <li>Cookies</li>
+        <li>Candy</li>
+      </ul>
+    </div>
+    <h3>Specialties</h3>
+    <div>
+      <p>
+     Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. 
+      </p>
+      <p>
+      Cupcake ipsum dolor sit. Amet tiramisu cheesecake gingerbread brownie. Tootsie roll applicake I love tiramisu soufflé soufflé cheesecake I love lemon drops. Marshmallow gummies sweet roll marzipan croissant. 
+      </p>
+    </div>
+  </div>
+   </div>
+ 
+</body>
+</html>
